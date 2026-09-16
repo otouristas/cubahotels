@@ -98,37 +98,22 @@ export function getFormerNameRedirects(): { source: string; destination: string 
 }
 
 export const destinationImages: Record<string, string> = {
-  havana:
-    "https://images.unsplash.com/photo-1500753233463-897074a97585?auto=format&fit=crop&w=1600&q=80",
-  "old-havana":
-    "https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1600&q=80",
-  varadero:
-    "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
-  "cayo-coco":
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
-  "cayo-guillermo":
-    "https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1600&q=80",
-  "cayo-santa-maria":
-    "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=1600&q=80",
-  holguin:
-    "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=80",
-  guardalavaca:
-    "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=1600&q=80",
-  trinidad:
-    "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1600&q=80",
-  "santiago-de-cuba":
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80",
-  "cayo-largo":
-    "https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=1600&q=80",
-  camaguey:
-    "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1600&q=80",
+  havana: "/images/havana.jpg",
+  "old-havana": "/images/travel.jpg",
+  varadero: "/images/varadero.jpg",
+  "cayo-coco": "/images/cayo.jpg",
+  "cayo-guillermo": "/images/cayo.jpg",
+  "cayo-santa-maria": "/images/cayo-santa-maria.jpg",
+  holguin: "/images/holguin.jpg",
+  guardalavaca: "/images/holguin.jpg",
+  trinidad: "/images/trinidad.jpg",
+  "santiago-de-cuba": "/images/santiago.jpg",
+  "cayo-largo": "/images/cayo.jpg",
+  camaguey: "/images/travel.jpg",
 };
 
 export function imageForDestination(slug: string): string {
-  return (
-    destinationImages[slug] ||
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
-  );
+  return destinationImages[slug] || "/images/varadero.jpg";
 }
 
 export function hotelBlurb(hotel: Hotel): string {

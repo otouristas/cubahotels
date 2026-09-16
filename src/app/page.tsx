@@ -50,6 +50,7 @@ export default async function HomePage() {
           alt="Classic cars and colorful streets in Havana, Cuba"
           fill
           priority
+          loading="eager"
           className="hero-media object-cover"
           sizes="100vw"
         />

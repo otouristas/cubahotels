@@ -19,8 +19,7 @@ export const guides: Guide[] = [
     category: "Havana",
     date: "2026-09-01",
     readMinutes: 7,
-    image:
-      "https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/travel.jpg",
     answerFirst:
       "Most first-time visitors should stay in Old Havana for walkable plazas or Vedado for mid-century hotels and nightlife; Miramar suits quieter, modern stays near embassies and beaches.",
     sections: [
@@ -46,8 +45,7 @@ export const guides: Guide[] = [
     category: "Beaches",
     date: "2026-08-20",
     readMinutes: 6,
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/varadero.jpg",
     answerFirst:
       "Pick Varadero for the longest beach strip and easy day trips toward Havana; pick Cayo Coco (Jardines del Rey) for quieter cay resorts and all-inclusive island pacing.",
     sections: [
@@ -69,8 +67,7 @@ export const guides: Guide[] = [
     category: "Travel Tips",
     date: "2026-08-22",
     readMinutes: 8,
-    image:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/havana.jpg",
     answerFirst:
       "In August 2026, multiple Cuba hotels formerly branded Meliá, Tryp, Sol, and Iberostar were confirmed under new local operating names — search both current and former names when booking.",
     sections: [

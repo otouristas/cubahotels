@@ -27,9 +27,7 @@ export function buildMetadata({
   const fullTitle =
     title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
   const url = absoluteUrl(path);
-  const ogImage =
-    image ||
-    "https://images.unsplash.com/photo-1500753233463-897074a97585?auto=format&fit=crop&w=1200&q=80";
+  const ogImage = image || absoluteUrl("/images/havana.jpg");
 
   return {
     title: fullTitle,
